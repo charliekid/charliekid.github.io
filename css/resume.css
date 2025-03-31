@@ -182,3 +182,26 @@ a:hover, a:focus, a:active {
 .portfolio-item {
     cursor: pointer;
 }
+
+ul {
+  margin: 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+  padding-left: 0; /* Remove left padding/indent */
+  margin-left: 0; /* Ensure no margin on the left */
+}
+
+ul.dashed > li {
+  position: relative; /* Needed for custom bullet positioning */
+  padding-left: 20px;
+  /* text-indent: -5px; */
+}
+
+ul.dashed > li:before {
+  content: "-";
+  position: absolute;
+  left: 0; /* Position the dash on the left */
+  /* text-indent: -5px; */
+}

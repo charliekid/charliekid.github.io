@@ -19,7 +19,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
   <style>
 	  .portfolio-item {cursor: pointer;}
   </style>
@@ -68,7 +68,7 @@
         <div class="subheading mb-5">San Diego, CA 92105 · (760) 859-7388 ·
           <a href="mailto:name@email.com">contacting.melody@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am a backend software engineer. With a passion for automotive technology.</p>
+        <p class="lead mb-5">Backend Software Engineer with a passion for automotive and blockchain technologies, committed to developing solutions that prioritize ethical and sustainable practices.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/melody-nguyen19/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -131,6 +131,13 @@
       <div class="w-100">
         <h2 class="mb-3">Portfolio</h2>
 		<div class="row">
+        <!-- Portfolio Item - Decklist Genie -->
+      <div class="col-md-6 col-lg-2 text-center">
+			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+				<img class="img-fluid" src="img/deck-list-genie.png" alt="">
+				  Decklist Genie
+			  </div>
+			</div>
 		        <!-- Portfolio Item 1 -->
 			<div class="col-md-6 col-lg-2 text-center">
 			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -146,7 +153,7 @@
 			  </div>
 			</div>
 
-      
+
         <!-- Portfolio Item 3 -->
 			<div class="col-lg-2 text-center">
 			  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
@@ -158,7 +165,7 @@
 				</div>
 -->
 				<img class="img-fluid" src="img/recipe.png" alt="">
-				  
+
 				  Reverse Recipes
 			  </div>
 			</div>
@@ -173,7 +180,7 @@
 				</div>
 -->
 				<img class="img-fluid" src="img/video_game_site.png" alt="">
-				  
+
 				  Video Game Store
 			  </div>
 			</div>
@@ -188,7 +195,7 @@
 				</div>
 -->
 				<img class="img-fluid" src="img/frugal_foodie.png" alt="">
-				  
+
 				  Frugal Foodie
 			  </div>
 			</div>
@@ -203,7 +210,7 @@
 				</div>
 -->
 				<img class="img-fluid" src="img/blockchain.png" alt="">
-				  
+
 				  Blockchain-19
 			  </div>
 			</div>
@@ -301,7 +308,7 @@
             <i class="fa-li fa fa-check"></i>
             Unit Testing
 		      </li>
-			
+
         </ul>
 		  <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
@@ -327,16 +334,30 @@
           <div class="resume-content">
             <h3 class="mb-0">Associate Software Engineer</h3>
             <div class="subheading mb-3">Cubic</div>
-            <p>
-				
-        - Developed and implemented features for payment reconciliation, including processing bank statements and managing credit and debit card transactions. <br>
-        - Created an internal application that is a central hub to access api documentation for multiple projects in different environments. This is used by many development teams including: architects, software engineers, and technical delivery managers. <br>
-        - Lead team in migrating legacy documentation into Swagger/OpenApi and using SpringDoc. <br>
-        - Quality metrics: Used sonarqube for testing coverage and upgrading libraries for vulnerability. <br>
-			      </p>
+            <ul class="dashed">
+              <li> Developed and implemented payment reconciliation features, including statement file generation and processing of merchant bank statements, ensuring accuracy and efficiency in financial operations. </li>
+              <li> Contributed to the development and maintenance of a notification system utilizing Apache Velocity Engine and Kafka messaging. Ensured reliable notification delivery and enabled accessibility and editability of notification templates within the customer management console. </li>
+              <li> Maintained and enhanced an internal web application for OpenAPI Specification, improving functionality, usability, and performance. </li>
+              <li> Led a team in migrating legacy documentation to Swagger/OpenAPI, leveraging SpringDoc to improve API documentation within codebase. </li>
+              <li> Quality metrics: Used sonarqube for testing coverage and upgrading libraries for vulnerability. </li>
+              <li> </li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2021 - Present</span>
+            <span class="text-primary">October 2021 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Java Scrum Team Intern</h3>
+            <div class="subheading mb-3">Cubic</div>
+            <p>
+        - Developed a web application as part of an internship project to centralize the review, editing, and visualization of OpenAPI Specifications. Designed for internal use by architects and developers, the tool streamlined API documentation workflows and enhanced ease of access. <br>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2021 - October 2021</span>
           </div>
         </div>
 
@@ -415,6 +436,50 @@
 
    <!-- Portfolio Modals -->
 
+   <!-- Portfolio Modal Deck Genie -->
+   <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
+     <div class="modal-dialog modal-xl" role="document">
+       <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">
+             <i class="fas fa-times"></i>
+           </span>
+         </button>
+         <div class="modal-body text-center">
+           <div class="container">
+             <div class="row justify-content-center">
+               <div class="col-lg-8">
+                 <!-- Portfolio Modal - Title -->
+                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Deck List Genie</h2>
+                 <!-- Icon Divider -->
+                 <div class="divider-custom">
+                   <div class="divider-custom-line"></div>
+                   <div class="divider-custom-line"></div>
+                 </div>
+                 <!-- Portfolio Modal - Image -->
+                 <img class="img-fluid rounded mb-5" src="img/deck-list-genie.png" alt="" width="200px">
+                 <!-- Portfolio Modal - Text -->
+
+                 <p class="mb-3">Developed a tool to streamline deck list submission for Pokémon-sanctioned events. Participants who
+                   practice using Pokémon Trading Card Game Live (PTCG Live) can copy their digital deck and paste it into the tool,
+                   which automatically generates a printable deck list for official submission, enhancing convenience and accuracy.
+                 </p>
+
+         <p>
+           <i class="fab fa-github"><a href="https://charliekid.github.io/DeckListGenie/" target="_blank"> GitHub Link</a></i>
+         </p>
+                 <button class="btn btn-primary" href="#" data-dismiss="modal">
+                   <i class="fas fa-times fa-fw"></i>
+                   Close Window
+                 </button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- End Modal Deck Genie -->
   <!-- Portfolio Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
@@ -456,7 +521,7 @@
     </div>
   </div>
 
-  
+
 
   <!-- Portfolio Modal 3 -->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
@@ -499,7 +564,7 @@
       </div>
     </div>
   </div>
-	
+
  <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
@@ -540,8 +605,8 @@
         </div>
       </div>
     </div>
-  </div>	
-	
+  </div>
+
 	 <!-- Portfolio Modal 5 -->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
@@ -582,8 +647,8 @@
       </div>
     </div>
   </div>
-	
-	
+
+
    <!-- Portfolio Modal 6 -->
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
