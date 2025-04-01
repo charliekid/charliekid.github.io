@@ -181,6 +181,8 @@ a:hover, a:focus, a:active {
 
 .portfolio-item {
     cursor: pointer;
+    max-width: 439px;
+    height: auto;
 }
 
 ul {
